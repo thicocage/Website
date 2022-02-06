@@ -165,7 +165,7 @@ export const mintWhiteList = async (account, proof, mintAmount) => {
     return {
       success: true,
       status:
-        "✅ Check out your transaction on Etherscan: https://rinkeby.etherscan.io/tx/" +
+        "✅ Check out your transaction on Etherscan: https://etherscan.io/tx/" +
         txHash,
     };
   } catch (error) {
@@ -209,7 +209,7 @@ export const mintPublic = async (mintAmount) => {
     return {
       success: true,
       status:
-        "✅ Check out your transaction on Etherscan: https://rinkeby.etherscan.io/tx/" +
+        "✅ Check out your transaction on Etherscan: https://etherscan.io/tx/" +
         txHash,
     };
   } catch (error) {
